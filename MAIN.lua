@@ -2511,4 +2511,4 @@ print([[
 
 print("Copyright (C) 2025 hellohellohell012321")
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/is9x/talented/main/logger.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/is9x/talented/main/notify.lua", true))()
