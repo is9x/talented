@@ -2,7 +2,7 @@
 -- MIDI88: OFF --
 -- Short Notes: ON --
 -- Note Velocity: OFF --
--- Sustain Pedal: OFF --om/hellohellohell012321/TALENTLESS/main/loader_main.lua", true))()
+-- Sustain Pedal: OFF --om/is9x/talented/main/loader_main.lua", true))()
 
 keypress("p", x, bpm)
 keypress("I", x, bpm)

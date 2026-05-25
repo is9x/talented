@@ -6,5 +6,5 @@ loadstring(
 )()
 
 loadstring(
-    game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/main/MAIN.lua", true)
+    game:HttpGet("https://raw.githubusercontent.com/is9x/talented/main/MAIN.lua", true)
 )()
