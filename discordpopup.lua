@@ -1,8 +1,8 @@
 local link = "https://discord.gg/6WMEAm6FZK"
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Discord",
-    Text = "Click Join to copy the link.",
+    Title = "second's script collection,
+    Text = "Join our Discord!",
     Button1 = "Join",
     Button2 = "Cancel",
     Duration = 10,
