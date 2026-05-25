@@ -147,7 +147,7 @@ translator:requestLang(frame, "first")
     title.BackgroundColor3 = Color3.fromRGB(50, 57, 73)
     title.Size = UDim2.new(1, 0, 0, 50)
     title.Font = Enum.Font.SourceSansBold
-    title.Text = "TALENTLESS"
+    title.Text = "TALENTLESS cracked by second"
     title.TextColor3 = Color3.fromRGB(255, 255, 255)
     title.TextSize = 46
     title.ZIndex = 2
@@ -238,7 +238,7 @@ translator:requestLang(frame, "first")
     creds.Font = Enum.Font.LuckiestGuy
     creds.Text = "BY HELLOHELLOHELL012321"
     creds.TextColor3 = Color3.fromRGB(255, 255, 255)
-    creds.TextSize = 14
+    creds.TextSize = 8
     creds.TextTransparency = 0.320
     creds.ZIndex = 2
 
