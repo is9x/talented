@@ -18,7 +18,7 @@ G2L["3"]["FontFace"] =
 G2L["3"]["Size"] = UDim2.new(0, 130, 0, 26)
 G2L["3"]["Name"] = [[close]]
 G2L["3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-G2L["3"]["Text"] = [[fuck off]]
+G2L["3"]["Text"] = [[no thanks]]
 G2L["3"]["Position"] = UDim2.new(0.5, -65, 0.8, 0)
 G2L["4"] = Instance.new("TextButton", G2L["2"])
 G2L["4"]["TextWrapped"] = true
@@ -46,8 +46,8 @@ G2L["6"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
 G2L["6"]["BackgroundTransparency"] = 1
 G2L["6"]["Size"] = UDim2.new(0, 200, 0, 61)
 G2L["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-G2L["6"]["Text"] = [[join the discord :3]]
-G2L["6"]["Name"] = [[join]]
+G2L["6"]["Text"] = [[Join the SSC Discord :D]]
+G2L["6"]["Name"] = [[Join]]
 G2L["6"]["Position"] = UDim2.new(0.5, -100, 0, 0)
 G2L["7"] = Instance.new("UICorner", G2L["2"])
 G2L["7"]["CornerRadius"] = UDim.new(0, 4)
@@ -117,7 +117,7 @@ local function C_b()
     local frame = screenGui:WaitForChild("Frame")
     local copyButton = frame:WaitForChild("copy")
     local function onCopyButtonClicked()
-        local link = "https://discord.gg/MP9nZgEeQD"
+        local link = "https://discord.gg/6WMEAm6FZK"
         setclipboard(link)
         function missing(t, f, fallback)
             if type(f) == t then return f end
@@ -138,7 +138,7 @@ local function C_b()
         		Body = HttpService:JSONEncode({
         			cmd = 'INVITE_BROWSER',
         			nonce = HttpService:GenerateGUID(false),
-        			args = {code = 'MP9nZgEeQD'}
+        			args = {code = '6WMEAm6FZK'}
         		})
         	})
         end

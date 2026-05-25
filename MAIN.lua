@@ -1,5 +1,6 @@
 -- Copyright (C) 2025 hellohellohell012321
--- Licensed under the GNU GPL v3. See LICENSE file for details.
+-- Modified by SSC
+-- Originally licensed under the GNU GPL v3. See LICENSE file for details.
 
 local translator = loadstring(game:HttpGet("https://raw.githubusercontent.com/is9x/talented/main/translator.lua"))()
 
@@ -2499,16 +2500,16 @@ end
 print([[
 
 
-
- __ __|   \     |      ____|   \  | __ __|  |      ____|   ___|   ___|
-    |    _ \    |      __|      \ |    |    |      __|   \___ \ \___ \
-    |   ___ \   |      |      |\  |    |    |      |           |      |
-   _| _/    _\ _____| _____| _| \_|   _|   _____| _____| _____/ _____/
+                                                    
+ __ __|   \     |      ____|   \  | __ __|  ____|  ————
+    |    _ \    |      __|      \ |    |    __|    |   |
+    |   ___ \   |      |      |\  |    |    |      |   |
+   _| _/    _\ _____| _____| _| \_|   _|   _____|  |___/ 
 
 
 
 ]])
 
-print("Copyright (C) 2025 hellohellohell012321")
+print("Talentless was originally made by hellohellohell012321. This is a modified version of the original script, so credits to them for making the original.")
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/is9x/talented/main/notify.lua", true))()
