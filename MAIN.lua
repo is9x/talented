@@ -151,6 +151,7 @@ translator:requestLang(frame, "first")
     title.TextColor3 = Color3.fromRGB(255, 255, 255)
     title.TextSize = 46
     title.ZIndex = 2
+    title.TextScaled = true
 
         uic2.CornerRadius = UDim.new(0, 4)
         uic2.Name = "uic2"
