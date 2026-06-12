@@ -1,4 +1,7 @@
-local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/is9x/talented/main/notif_lib.lua"))()
+-- Copyright (C) 2025 hellohellohell012321
+-- Licensed under the GNU GPL v3. See LICENSE file for details.
+
+local NotificationLibrary = loadstring(game:HttpGet("https://hellohellohell0.com/talentless-raw/notif_lib.lua"))()
 
 local function playSound(soundId, loudness)
     local sound = Instance.new("Sound")
@@ -8,7 +11,7 @@ local function playSound(soundId, loudness)
     sound:Play()
 end
 
-local translator = loadstring(game:HttpGet("https://raw.githubusercontent.com/is9x/talented/main/translator.lua"))()
+local translator = loadstring(game:HttpGet("https://hellohellohell0.com/talentless-raw/translator.lua"))()
 
 local function translateText(text)
     return translator:translateText(text) -- lang shouldve alr been set by main script.

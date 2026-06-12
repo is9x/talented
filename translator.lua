@@ -885,6 +885,482 @@ local translations = {
         ["ar"] = "تأكيد"
     },
 
+    ["stopping..."] = {
+        ["en"] = "stopping...",
+        ["pt-BR"] = "parando...",
+        ["es"] = "deteniendo...",
+        ["ru"] = "останавливаю...",
+        ["zh-CN"] = "正在停止...",
+        ["id"] = "menghentikan...",
+        ["fil"] = "humihinto...",
+        ["vi"] = "đang dừng...",
+        ["fr"] = "arrêt...",
+        ["de"] = "stoppen...",
+        ["ja"] = "停止中...",
+        ["ko"] = "중지 중...",
+        ["tr"] = "durduruluyor...",
+        ["ar"] = "جارٍ الإيقاف..."
+    },
+
+    ["songfinished"] = {
+        ["en"] = "your song has finished.",
+        ["pt-BR"] = "sua música terminou.",
+        ["es"] = "tu canción ha terminado.",
+        ["ru"] = "твоя песня закончилась.",
+        ["zh-CN"] = "你的歌曲已结束。",
+        ["id"] = "lagumu telah selesai.",
+        ["fil"] = "tapos na ang iyong kanta.",
+        ["vi"] = "bài hát của bạn đã kết thúc.",
+        ["fr"] = "ta chanson est terminée.",
+        ["de"] = "dein lied ist beendet.",
+        ["ja"] = "曲が終了しました。",
+        ["ko"] = "노래가 끝났습니다.",
+        ["tr"] = "şarkın bitti.",
+        ["ar"] = "انتهت أغنيتك."
+    },
+
+    ["invalidbpm"] = {
+        ["en"] = "please put a valid bpm",
+        ["pt-BR"] = "por favor, coloque um bpm válido",
+        ["es"] = "por favor, pon un bpm válido",
+        ["ru"] = "пожалуйста, укажи допустимый bpm",
+        ["zh-CN"] = "请输入有效的 bpm",
+        ["id"] = "tolong masukkan bpm yang valid",
+        ["fil"] = "pakilagay ng valid na bpm",
+        ["vi"] = "vui lòng nhập bpm hợp lệ",
+        ["fr"] = "mets un bpm valide s'il te plaît",
+        ["de"] = "bitte gib ein gültiges bpm ein",
+        ["ja"] = "有効な bpm を入力してください",
+        ["ko"] = "유효한 bpm을 입력해주세요",
+        ["tr"] = "lütfen geçerli bir bpm gir",
+        ["ar"] = "من فضلك أدخل bpm صالحًا"
+    },    
+
+    ["copykey"] = {
+        ["en"] = "COPY KEY LINK",
+        ["pt-BR"] = "COPIAR LINK DA CHAVE",
+        ["es"] = "COPIAR ENLACE DE LA CLAVE",
+        ["ru"] = "СКОПИРОВАТЬ ССЫЛКУ НА КЛЮЧ",
+        ["zh-CN"] = "复制密钥链接",
+        ["id"] = "SALIN TAUTAN KUNCI",
+        ["fil"] = "KOPYAHIN ANG KEY LINK",
+        ["vi"] = "SAO CHÉP LIÊN KẾT KHÓA",
+        ["fr"] = "COPIER LE LIEN DE CLÉ",
+        ["de"] = "SCHLÜSSELLINK KOPIEREN",
+        ["ja"] = "キーリンクをコピー",
+        ["ko"] = "키 링크 복사",
+        ["tr"] = "ANAHTAR BAĞLANTISINI KOPYALA",
+        ["ar"] = "نسخ رابط المفتاح"
+    },
+    
+    ["keytitle"] = {
+        ["en"] = "TALENTLESS requires a key to use. Follow the instructions below.",
+        ["pt-BR"] = "o TALENTLESS requer uma chave para usar. siga as instruções abaixo.",
+        ["es"] = "TALENTLESS requiere una clave para usarse. sigue las instrucciones de abajo.",
+        ["ru"] = "для использования TALENTLESS требуется ключ. следуйте инструкциям ниже.",
+        ["zh-CN"] = "使用 TALENTLESS 需要密钥。请按照以下说明操作。",
+        ["id"] = "TALENTLESS memerlukan kunci untuk digunakan. ikuti instruksi di bawah ini.",
+        ["fil"] = "kailangan ng TALENTLESS ng key para magamit. sundin ang mga tagubilin sa ibaba.",
+        ["vi"] = "TALENTLESS cần một khóa để sử dụng. hãy làm theo hướng dẫn bên dưới.",
+        ["fr"] = "TALENTLESS nécessite une clé pour fonctionner. suivez les instructions ci-dessous.",
+        ["de"] = "TALENTLESS benötigt einen schlüssel zur nutzung. folge den anweisungen unten.",
+        ["ja"] = "TALENTLESS を使用するにはキーが必要です。以下の手順に従ってください。",
+        ["ko"] = "TALENTLESS를 사용하려면 키가 필요합니다. 아래 지침을 따르세요.",
+        ["tr"] = "TALENTLESS'i kullanmak için bir anahtar gerekir. aşağıdaki talimatları izleyin.",
+        ["ar"] = "يتطلب TALENTLESS مفتاحًا للاستخدام. اتبع التعليمات أدناه."
+    },
+
+    ["keyinsert"] = {
+        ["en"] = "Paste key here (example: 0491)",
+        ["pt-BR"] = "cole a chave aqui (exemplo: 0491)",
+        ["es"] = "pega la clave aquí (ejemplo: 0491)",
+        ["ru"] = "вставьте ключ здесь (пример: 0491)",
+        ["zh-CN"] = "在此粘贴密钥（例如：0491）",
+        ["id"] = "tempel kunci di sini (contoh: 0491)",
+        ["fil"] = "i-paste ang key dito (halimbawa: 0491)",
+        ["vi"] = "dán khóa vào đây (ví dụ: 0491)",
+        ["fr"] = "collez la clé ici (exemple : 0491)",
+        ["de"] = "füge den schlüssel hier ein (beispiel: 0491)",
+        ["ja"] = "ここにキーを貼り付けてください（例: 0491）",
+        ["ko"] = "여기에 키를 붙여넣으세요 (예: 0491)",
+        ["tr"] = "anahtarı buraya yapıştır (örnek: 0491)",
+        ["ar"] = "الصق المفتاح هنا (مثال: 0491)"
+    },
+
+    ["step1"] = {
+        ["en"] = "Step 1:",
+        ["pt-BR"] = "Passo 1:",
+        ["es"] = "Paso 1:",
+        ["ru"] = "Шаг 1:",
+        ["zh-CN"] = "步骤 1：",
+        ["id"] = "Langkah 1:",
+        ["fil"] = "Hakbang 1:",
+        ["vi"] = "Bước 1:",
+        ["fr"] = "Étape 1 :",
+        ["de"] = "Schritt 1:",
+        ["ja"] = "ステップ 1：",
+        ["ko"] = "1단계:",
+        ["tr"] = "Adım 1:",
+        ["ar"] = "الخطوة 1:"
+    },
+    
+    ["step2"] = {
+        ["en"] = "Step 2:",
+        ["pt-BR"] = "Passo 2:",
+        ["es"] = "Paso 2:",
+        ["ru"] = "Шаг 2:",
+        ["zh-CN"] = "步骤 2：",
+        ["id"] = "Langkah 2:",
+        ["fil"] = "Hakbang 2:",
+        ["vi"] = "Bước 2:",
+        ["fr"] = "Étape 2 :",
+        ["de"] = "Schritt 2:",
+        ["ja"] = "ステップ 2：",
+        ["ko"] = "2단계:",
+        ["tr"] = "Adım 2:",
+        ["ar"] = "الخطوة 2:"
+    },
+    
+    ["step3"] = {
+        ["en"] = "Step 3:",
+        ["pt-BR"] = "Passo 3:",
+        ["es"] = "Paso 3:",
+        ["ru"] = "Шаг 3:",
+        ["zh-CN"] = "步骤 3：",
+        ["id"] = "Langkah 3:",
+        ["fil"] = "Hakbang 3:",
+        ["vi"] = "Bước 3:",
+        ["fr"] = "Étape 3 :",
+        ["de"] = "Schritt 3:",
+        ["ja"] = "ステップ 3：",
+        ["ko"] = "3단계:",
+        ["tr"] = "Adım 3:",
+        ["ar"] = "الخطوة 3:"
+    },
+
+    ["copykeysite"] = {
+        ["en"] = "Click the button to copy the link for the key website.",
+        ["pt-BR"] = "Clique no botão para copiar o link do site da chave.",
+        ["es"] = "Haz clic en el botón para copiar el enlace del sitio de la clave.",
+        ["ru"] = "Нажмите кнопку, чтобы скопировать ссылку на сайт ключа.",
+        ["zh-CN"] = "点击按钮以复制密钥网站的链接。",
+        ["id"] = "Klik tombol untuk menyalin tautan ke situs kunci.",
+        ["fil"] = "I-click ang button para kopyahin ang link ng key website.",
+        ["vi"] = "Nhấn nút để sao chép liên kết đến trang web lấy mã.",
+        ["fr"] = "Cliquez sur le bouton pour copier le lien du site de la clé.",
+        ["de"] = "Klicke auf den Knopf, um den Link zur Schlüssel-Website zu kopieren.",
+        ["ja"] = "ボタンをクリックしてキーサイトのリンクをコピーしてください。",
+        ["ko"] = "버튼을 눌러 키 웹사이트 링크를 복사하세요.",
+        ["tr"] = "Anahtar web sitesinin bağlantısını kopyalamak için düğmeye tıklayın.",
+        ["ar"] = "انقر على الزر لنسخ رابط موقع المفتاح."
+    },
+
+    ["completetaskforkey"] = {
+        ["en"] = "Complete the task on the website to get the key.",
+        ["pt-BR"] = "Conclua a tarefa no site para obter a chave.",
+        ["es"] = "Completa la tarea en el sitio web para obtener la clave.",
+        ["ru"] = "Выполните задание на сайте, чтобы получить ключ.",
+        ["zh-CN"] = "在网站上完成任务即可获得密钥。",
+        ["id"] = "Selesaikan tugas di situs web untuk mendapatkan kunci.",
+        ["fil"] = "Kumpletuhin ang task sa website para makuha ang key.",
+        ["vi"] = "Hoàn thành nhiệm vụ trên trang web để nhận mã.",
+        ["fr"] = "Complétez la tâche sur le site pour obtenir la clé.",
+        ["de"] = "Schließe die Aufgabe auf der Website ab, um den Schlüssel zu erhalten.",
+        ["ja"] = "ウェブサイトのタスクを完了してキーを入手してください。",
+        ["ko"] = "웹사이트에서 작업을 완료하면 키를 받을 수 있습니다.",
+        ["tr"] = "Anahtarı almak için sitedeki görevi tamamlayın.",
+        ["ar"] = "أكمِل المهمة على الموقع لتحصل على المفتاح."
+    },
+
+    ["pastekeyhere"] = {
+        ["en"] = "Paste the key here →",
+        ["pt-BR"] = "Cole a chave aqui →",
+        ["es"] = "Pega la clave aquí →",
+        ["ru"] = "Вставьте ключ сюда →",
+        ["zh-CN"] = "在此粘贴密钥 →",
+        ["id"] = "Tempel kunci di sini →",
+        ["fil"] = "I-paste ang key dito →",
+        ["vi"] = "Dán mã vào đây →",
+        ["fr"] = "Collez la clé ici →",
+        ["de"] = "Füge den Schlüssel hier ein →",
+        ["ja"] = "ここにキーを貼り付け →",
+        ["ko"] = "여기에 키를 붙여넣기 →",
+        ["tr"] = "Anahtarı buraya yapıştır →",
+        ["ar"] = "ألصِق المفتاح هنا →"
+    },
+
+    ["submitkey"] = {
+        ["en"] = "Submit Key!",
+        ["pt-BR"] = "Enviar chave!",
+        ["es"] = "Enviar clave!",
+        ["ru"] = "Отправить ключ!",
+        ["zh-CN"] = "提交密钥！",
+        ["id"] = "Kirim kunci!",
+        ["fil"] = "Isumite ang key!",
+        ["vi"] = "Gửi mã!",
+        ["fr"] = "Envoyer la clé !",
+        ["de"] = "Schlüssel senden!",
+        ["ja"] = "キーを送信！",
+        ["ko"] = "키 제출!",
+        ["tr"] = "Anahtarı gönder!",
+        ["ar"] = "أرسل المفتاح!"
+    },
+    
+    ["keylinkcopied"] = {
+        ["en"] = "The link to the key has been copied to your clipboard.",
+        ["pt-BR"] = "O link da chave foi copiado para sua área de transferência.",
+        ["es"] = "El enlace de la clave se copió en tu portapapeles.",
+        ["ru"] = "Ссылка на ключ скопирована в ваш буфер обмена.",
+        ["zh-CN"] = "密钥链接已复制到您的剪贴板。",
+        ["id"] = "Tautan kunci telah disalin ke papan klip Anda.",
+        ["fil"] = "Nakopya na sa iyong clipboard ang link ng key.",
+        ["vi"] = "Liên kết khóa đã được sao chép vào clipboard của bạn.",
+        ["fr"] = "Le lien de la clé a été copié dans votre presse-papiers.",
+        ["de"] = "Der Schlüssellink wurde in deine Zwischenablage kopiert.",
+        ["ja"] = "キーのリンクがクリップボードにコピーされました。",
+        ["ko"] = "키 링크가 클립보드에 복사되었습니다.",
+        ["tr"] = "Anahtar bağlantısı panonuza kopyalandı.",
+        ["ar"] = "تم نسخ رابط المفتاح إلى الحافظة الخاصة بك."
+    },
+
+    ["keyempty"] = {
+        ["en"] = "The key input is empty. Read the instructions to get the key.",
+        ["pt-BR"] = "O campo da chave está vazio. Leia as instruções para obter a chave.",
+        ["es"] = "El campo de la clave está vacío. Lee las instrucciones para obtener la clave.",
+        ["ru"] = "Поле ввода ключа пусто. Прочтите инструкции, чтобы получить ключ.",
+        ["zh-CN"] = "密钥输入为空。请阅读说明以获取密钥。",
+        ["id"] = "Input kunci kosong. Baca instruksinya untuk mendapatkan kunci.",
+        ["fil"] = "Walang laman ang key input. Basahin ang mga tagubilin para makuha ang key.",
+        ["vi"] = "Ô nhập khóa đang trống. Hãy đọc hướng dẫn để lấy khóa.",
+        ["fr"] = "Le champ de la clé est vide. Lisez les instructions pour obtenir la clé.",
+        ["de"] = "Die Schlüsseleingabe ist leer. Lies die Anweisungen, um den Schlüssel zu erhalten.",
+        ["ja"] = "キー入力が空です。キーを取得するには指示を読んでください。",
+        ["ko"] = "키 입력이 비어 있습니다. 키를 얻으려면 지침을 읽으세요.",
+        ["tr"] = "Anahtar girişi boş. Anahtarı almak için talimatları okuyun.",
+        ["ar"] = "إدخال المفتاح فارغ. اقرأ التعليمات للحصول على المفتاح."
+    },
+    
+    ["keysuccess"] = {
+        ["en"] = "Success.",
+        ["pt-BR"] = "Sucesso.",
+        ["es"] = "Éxito.",
+        ["ru"] = "Успешно.",
+        ["zh-CN"] = "成功。",
+        ["id"] = "Sukses.",
+        ["fil"] = "Tagumpay.",
+        ["vi"] = "Thành công.",
+        ["fr"] = "Succès.",
+        ["de"] = "Erfolg.",
+        ["ja"] = "成功。",
+        ["ko"] = "성공.",
+        ["tr"] = "Başarılı.",
+        ["ar"] = "نجاح."
+    },
+      
+    ["keyinvalid"] = {
+        ["en"] = "Your key is invalid. If you need help, join the discord server by clicking the question mark button.",
+        ["pt-BR"] = "Sua chave é inválida. Se precisar de ajuda, entre no servidor do Discord clicando no botão de interrogação.",
+        ["es"] = "Tu clave es inválida. Si necesitas ayuda, únete al servidor de Discord haciendo clic en el botón de interrogación.",
+        ["ru"] = "Ваш ключ недействителен. Если нужна помощь, присоединяйтесь к серверу Discord, нажав на кнопку с вопросительным знаком.",
+        ["zh-CN"] = "您的密钥无效。如需帮助，请点击问号按钮加入 Discord 服务器。",
+        ["id"] = "Kunci Anda tidak valid. Jika membutuhkan bantuan, bergabunglah dengan server Discord dengan mengklik tombol tanda tanya.",
+        ["fil"] = "Ang iyong key ay hindi wasto. Kung kailangan mo ng tulong, sumali sa Discord server sa pamamagitan ng pag-click sa question mark na button.",
+        ["vi"] = "Khóa của bạn không hợp lệ. Nếu cần trợ giúp, hãy tham gia server Discord bằng cách nhấn nút dấu hỏi.",
+        ["fr"] = "Votre clé est invalide. Si vous avez besoin d'aide, rejoignez le serveur Discord en cliquant sur le bouton point d'interrogation.",
+        ["de"] = "Dein Schlüssel ist ungültig. Wenn du Hilfe brauchst, tritt dem Discord-Server bei, indem du auf die Fragezeichen-Schaltfläche klickst.",
+        ["ja"] = "あなたのキーは無効です。ヘルプが必要な場合は、クエスチョンマークボタンをクリックして Discord サーバーに参加してください。",
+        ["ko"] = "키가 유효하지 않습니다. 도움이 필요하면 물음표 버튼을 클릭하여 Discord 서버에 참여하세요.",
+        ["tr"] = "Anahtarınız geçersiz. Yardıma ihtiyacınız varsa, soru işareti düğmesine tıklayarak Discord sunucusuna katılın.",
+        ["ar"] = "المفتاح الخاص بك غير صالح. إذا كنت بحاجة إلى مساعدة، انضم إلى خادم Discord بالنقر على زر علامة الاستفهام."
+    },
+    
+    ["keyexpired"] = {
+        ["en"] = "This key is expired. The key was reset recently. Redo the tasks on the key website to get a new key.",
+        ["pt-BR"] = "Esta chave expirou. A chave foi redefinida recentemente. Refaça as tarefas no site da chave para obter uma nova chave.",
+        ["es"] = "Esta clave ha expirado. La clave se reinició recientemente. Vuelve a hacer las tareas en el sitio web de la clave para obtener una nueva.",
+        ["ru"] = "Этот ключ истёк. Ключ был недавно сброшен. Выполните задания на сайте ключа, чтобы получить новый.",
+        ["zh-CN"] = "此密钥已过期。密钥最近被重置。请重新在密钥网站完成任务以获取新密钥。",
+        ["id"] = "Kunci ini sudah kedaluwarsa. Kunci baru-baru ini direset. Lakukan kembali tugas di situs kunci untuk mendapatkan kunci baru.",
+        ["fil"] = "Paso na ang key na ito. Kakare-reset lang ng key kamakailan. Gawin muli ang mga task sa key website para makakuha ng bagong key.",
+        ["vi"] = "Khóa này đã hết hạn. Khóa vừa được đặt lại gần đây. Hãy làm lại các nhiệm vụ trên trang web để nhận khóa mới.",
+        ["fr"] = "Cette clé a expiré. La clé a été réinitialisée récemment. Refaite les tâches sur le site pour obtenir une nouvelle clé.",
+        ["de"] = "Dieser Schlüssel ist abgelaufen. Der Schlüssel wurde vor Kurzem zurückgesetzt. Wiederhole die Aufgaben auf der Schlüssel-Website, um einen neuen Schlüssel zu erhalten.",
+        ["ja"] = "このキーは期限切れです。キーは最近リセットされました。新しいキーを取得するには、キーサイトでタスクをやり直してください。",
+        ["ko"] = "이 키는 만료되었습니다. 키가 최근에 초기화되었습니다. 새로운 키를 받으려면 키 웹사이트에서 작업을 다시 수행하세요.",
+        ["tr"] = "Bu anahtarın süresi doldu. Anahtar yakın zamanda sıfırlandı. Yeni bir anahtar almak için anahtar sitesindeki görevleri yeniden yapın.",
+        ["ar"] = "هذه المفتاح منتهي الصلاحية. تم إعادة تعيين المفتاح مؤخرًا. أعد القيام بالمهام في موقع المفتاح للحصول على مفتاح جديد."
+    },
+
+    ["categories"] = {
+        ["en"] = "categories",
+        ["pt-BR"] = "categorias",
+        ["es"] = "categorías",
+        ["ru"] = "категории",
+        ["zh-CN"] = "分类",
+        ["id"] = "kategori",
+        ["fil"] = "mga kategorya",
+        ["vi"] = "thể loại",
+        ["fr"] = "catégories",
+        ["de"] = "kategorien",
+        ["ja"] = "カテゴリ",
+        ["ko"] = "카테고리",
+        ["tr"] = "kategoriler",
+        ["ar"] = "الفئات"
+    },
+    
+    ["utilities"] = {
+        ["en"] = "utilities",
+        ["pt-BR"] = "ferramentas",
+        ["es"] = "utilidades",
+        ["ru"] = "утилиты",
+        ["zh-CN"] = "实用工具",
+        ["id"] = "utilitas",
+        ["fil"] = "mga kagamitan",
+        ["vi"] = "tiện ích",
+        ["fr"] = "outils",
+        ["de"] = "dienstprogramme",
+        ["ja"] = "ユーティリティ",
+        ["ko"] = "유틸리티",
+        ["tr"] = "araçlar",
+        ["ar"] = "الأدوات"
+    },
+
+    ["copynewscript"] = {
+        ["en"] = "copy new script!",
+        ["pt-BR"] = "copiar novo script!",
+        ["es"] = "copiar nuevo script!",
+        ["ru"] = "скопировать новый скрипт!",
+        ["zh-CN"] = "复制新脚本！",
+        ["id"] = "salin skrip baru!",
+        ["fil"] = "kopyahin ang bagong script!",
+        ["vi"] = "sao chép script mới!",
+        ["fr"] = "copier le nouveau script !",
+        ["de"] = "neues skript kopieren!",
+        ["ja"] = "新しいスクリプトをコピー！",
+        ["ko"] = "새 스크립트 복사!",
+        ["tr"] = "yeni scripti kopyala!",
+        ["ar"] = "نسخ البرنامج الجديد!"
+    },
+    
+    ["scriptcopied"] = {
+        ["en"] = "copied!",
+        ["pt-BR"] = "copiado!",
+        ["es"] = "¡copiado!",
+        ["ru"] = "скопировано!",
+        ["zh-CN"] = "已复制！",
+        ["id"] = "disalin!",
+        ["fil"] = "nakopya!",
+        ["vi"] = "đã sao chép!",
+        ["fr"] = "copié !",
+        ["de"] = "kopiert!",
+        ["ja"] = "コピーしました！",
+        ["ko"] = "복사됨!",
+        ["tr"] = "kopyalandı!",
+        ["ar"] = "تم النسخ!"
+    },
+    
+    ["usenewloadstring"] = {
+        ["en"] = "use TALENTLESS from the new loadstring:",
+        ["pt-BR"] = "use TALENTLESS do novo loadstring:",
+        ["es"] = "usa TALENTLESS desde el nuevo loadstring:",
+        ["ru"] = "используйте TALENTLESS из новой loadstring:",
+        ["zh-CN"] = "从新的 loadstring 使用 TALENTLESS：",
+        ["id"] = "gunakan TALENTLESS dari loadstring baru:",
+        ["fil"] = "gamitin ang TALENTLESS mula sa bagong loadstring:",
+        ["vi"] = "sử dụng TALENTLESS từ loadstring mới:",
+        ["fr"] = "utilisez TALENTLESS depuis le nouveau loadstring :",
+        ["de"] = "verwende TALENTLESS aus dem neuen Loadstring:",
+        ["ja"] = "新しい loadstring から TALENTLESS を使用：",
+        ["ko"] = "새 loadstring에서 TALENTLESS 사용:",
+        ["tr"] = "yeni loadstring'den TALENTLESS kullan:",
+        ["ar"] = "استخدم TALENTLESS من loadstring الجديد:"
+    },
+
+    ["stopplayingplaylist"] = {
+        ["en"] = "STOP PLAYING PLAYLIST",
+        ["pt-BR"] = "PARAR DE TOCAR PLAYLIST",
+        ["es"] = "DETENER REPRODUCCIÓN DE LA LISTA",
+        ["ru"] = "ОСТАНОВИТЬ ВОСПРОИЗВЕДЕНИЕ ПЛЕЙЛИСТА",
+        ["zh-CN"] = "停止播放播放列表",
+        ["id"] = "HENTIKAN PEMUTARAN PLAYLIST",
+        ["fil"] = "ITIGIL ANG PAG-PLAY NG PLAYLIST",
+        ["vi"] = "DỪNG PHÁT DANH SÁCH PHÁT",
+        ["fr"] = "ARRÊTER LA LECTURE DE LA PLAYLIST",
+        ["de"] = "WIEDERGABELISTE STOPPEN",
+        ["ja"] = "プレイリストの再生を停止",
+        ["ko"] = "재생목록 재생 중지",
+        ["tr"] = "ÇALMA LİSTESİNİ DURDUR",
+        ["ar"] = "إيقاف تشغيل قائمة التشغيل"
+    },
+    
+    ["playlist"] = {
+        ["en"] = "playlist",
+        ["pt-BR"] = "playlist",
+        ["es"] = "lista",
+        ["ru"] = "плейлист",
+        ["zh-CN"] = "播放列表",
+        ["id"] = "playlist",
+        ["fil"] = "playlist",
+        ["vi"] = "ds phát",
+        ["fr"] = "playlist",
+        ["de"] = "playlist",
+        ["ja"] = "プレイリスト",
+        ["ko"] = "재생목록",
+        ["tr"] = "çalma listesi",
+        ["ar"] = "قائمة التشغيل"
+    },    
+
+    ["shuffleplaylist"] = {
+        ["en"] = "SHUFFLE PLAYLIST",
+        ["pt-BR"] = "ALEATÓRIO",
+        ["es"] = "ALEAT.",
+        ["ru"] = "ПЕРЕМЕШАТЬ",
+        ["zh-CN"] = "随机播放",
+        ["id"] = "ACAK",
+        ["fil"] = "SHUFFLE",
+        ["vi"] = "XÁO TRỘN",
+        ["fr"] = "ALÉATOIRE",
+        ["de"] = "MISCHEN",
+        ["ja"] = "シャッフル",
+        ["ko"] = "셔플",
+        ["tr"] = "KARIŞTIR",
+        ["ar"] = "عشوائي"
+    },
+    
+    ["playplaylist"] = {
+        ["en"] = "PLAY PLAYLIST",
+        ["pt-BR"] = "REPRODUZIR",
+        ["es"] = "REPROD.",
+        ["ru"] = "ИГРАТЬ",
+        ["zh-CN"] = "播放",
+        ["id"] = "PUTAR",
+        ["fil"] = "PLAY",
+        ["vi"] = "PHÁT",
+        ["fr"] = "LIRE",
+        ["de"] = "ABSPIELEN",
+        ["ja"] = "再生",
+        ["ko"] = "재생",
+        ["tr"] = "ÇAL",
+        ["ar"] = "تشغيل"
+    },    
+
+    ["playlisttooshort"] = {
+        ["en"] = "You have less than 2 songs in your playlist.",
+        ["pt-BR"] = "Você tem menos de 2 músicas na sua playlist.",
+        ["es"] = "Tienes menos de 2 canciones en tu lista.",
+        ["ru"] = "У вас меньше 2 песен в плейлисте.",
+        ["zh-CN"] = "你的播放列表中少于2首歌曲。",
+        ["id"] = "Daftar putar Anda kurang dari 2 lagu.",
+        ["fil"] = "Mas mababa sa 2 ang kanta sa playlist mo.",
+        ["vi"] = "Playlist của bạn có ít hơn 2 bài hát.",
+        ["fr"] = "Vous avez moins de 2 chansons dans votre playlist.",
+        ["de"] = "Du hast weniger als 2 Songs in deiner Playlist.",
+        ["ja"] = "プレイリストに2曲未満しかありません。",
+        ["ko"] = "재생목록에 2곡 미만이 있습니다.",
+        ["tr"] = "Çalma listenizde 2'den az şarkı var.",
+        ["ar"] = "لديك أقل من أغنيتين في قائمة التشغيل."
+    },
+
     ["ALTALE"] = {
         ["ja"] = "アルタレ"
     },
@@ -1021,26 +1497,58 @@ local translations = {
         ["ja"] = "リフレクション"
     },
     
+    ["AI♡SCREAM!"] = {
+        ["ja"] = "愛♡スクリ～ム！"
+    },
+
+    ["A TALE OF SIX TRILLION YEARS AND A NIGHT"] = {
+        ["ja"] = "六兆年と一夜物語"
+    },
+
+    ["PROPOSE (9LANA)"] = {
+        ["ja"] = "プロポーズ"
+    },
+
+    ["SINKING TOWN"] = {
+        ["ja"] = "沈める街"
+    },
+
+    [""] = {
+        ["ja"] = ""
+    },
+
+    [""] = {
+        ["ja"] = ""
+    },
+
+    [""] = {
+        ["ja"] = ""
+    },
+
+    [""] = {
+        ["ja"] = ""
+    },
+
     [""] = {
         ["ja"] = ""
     },
 }
 
-_G.languages = _G.languages or {
-    ["en"] = false,       -- English
-    ["pt-BR"] = false,    -- Brazilian Portuguese
-    ["es"] = false,       -- Spanish
-    ["ru"] = false,       -- Russian
-    ["zh-CN"] = false,    -- Chinese (Simplified / Mandarin)
-    ["id"] = false,       -- Indonesian
-    ["fil"] = false,      -- Filipino (Tagalog)
-    ["vi"] = false,       -- Vietnamese
-    ["fr"] = false,       -- French
-    ["de"] = false,       -- German
-    ["ja"] = false,       -- Japanese
-    ["ko"] = false,       -- Korean
-    ["tr"] = false,       -- Turkish
-    ["ar"] = false        -- Arabic
+_G.languages ​​= _G.languages ​​or {
+    ["en"] = false, -- English
+    ["pt-BR"] = false, -- Brazilian Portuguese
+    ["es"] = false, -- Spanish
+    ["ru"] = false, -- Russian
+    ["zh-CN"] = false, -- Chinese (Simplified / Mandarin)
+    ["id"] = false, -- Indonesian
+    ["thread"] = false, -- Filipino (Tagalog)
+    ["vi"] = false, -- Vietnamese
+    ["fr"] = false, -- French
+    ["de"] = false, -- German
+    ["ja"] = false, -- Japanese
+    ["ko"] = false, -- Korean
+    ["tr"] = false, -- Turkish
+    ["ar"] = false -- Arabic
 }
 
 local function setLanguage(lang)
@@ -1063,7 +1571,7 @@ function translator:translateText(text)
 
     local activeLanguage
 
-    if _G.languages then
+    if _G.languages ​​then
         for lang, isActive in pairs(_G.languages) do
             if isActive then
                 activeLanguage = lang
@@ -1115,16 +1623,24 @@ function translator:requestLang(frame, type)
 
     print("Checking for saved language...")
     
-    if isfile("TALENTLESS_language.txt") and type == "first" then
-        local savedLang = readfile("TALENTLESS_language.txt")
-        print("Saved language:", savedLang)
-        print("Language codes has this?", languageCodes[savedLang])
-        local savedLang = readfile("TALENTLESS_language.txt")
-        if languageCodes[savedLang] then
-            setLanguage(savedLang)
-            return
+    local savedLang
+
+    if type == "first" then
+        local success, result = pcall(readfile, "TALENTLESS_language.txt")
+        if success then
+            savedLang = result
+            print("Saved language:", savedLang)
+            print("Language codes has this?", languageCodes[savedLang])
+
+            if languageCodes[savedLang] then
+                setLanguage(savedLang)
+                return
+            end
+        else
+            warn("Failed to read file: TALENTLESS_language.txt")
         end
     end
+
 
     local languageFrame = Instance.new("Frame")
     local uic1 = Instance.new("UICorner")
