@@ -1534,21 +1534,21 @@ local translations = {
     },
 }
 
-_G.languages ​​= _G.languages ​​or {
-    ["en"] = false, -- English
-    ["pt-BR"] = false, -- Brazilian Portuguese
-    ["es"] = false, -- Spanish
-    ["ru"] = false, -- Russian
-    ["zh-CN"] = false, -- Chinese (Simplified / Mandarin)
-    ["id"] = false, -- Indonesian
-    ["thread"] = false, -- Filipino (Tagalog)
-    ["vi"] = false, -- Vietnamese
-    ["fr"] = false, -- French
-    ["de"] = false, -- German
-    ["ja"] = false, -- Japanese
-    ["ko"] = false, -- Korean
-    ["tr"] = false, -- Turkish
-    ["ar"] = false -- Arabic
+_G.languages = _G.languages or {
+    ["en"] = false,       -- English
+    ["pt-BR"] = false,    -- Brazilian Portuguese
+    ["es"] = false,       -- Spanish
+    ["ru"] = false,       -- Russian
+    ["zh-CN"] = false,    -- Chinese (Simplified / Mandarin)
+    ["id"] = false,       -- Indonesian
+    ["fil"] = false,      -- Filipino (Tagalog)
+    ["vi"] = false,       -- Vietnamese
+    ["fr"] = false,       -- French
+    ["de"] = false,       -- German
+    ["ja"] = false,       -- Japanese
+    ["ko"] = false,       -- Korean
+    ["tr"] = false,       -- Turkish
+    ["ar"] = false        -- Arabic
 }
 
 local function setLanguage(lang)
@@ -1571,7 +1571,7 @@ function translator:translateText(text)
 
     local activeLanguage
 
-    if _G.languages ​​then
+    if _G.languages then
         for lang, isActive in pairs(_G.languages) do
             if isActive then
                 activeLanguage = lang
