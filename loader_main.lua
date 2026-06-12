@@ -3,9 +3,9 @@
 
 _G.STOPIT = true
 
-local NotificationLibrary = loadstring(game:HttpGet("https://github.com/is9x/TALENTED/notif_lib.lua"))()
+local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/is9x/talented/refs/heads/main/notif_lib.lua"))()
 
-local translator = loadstring(game:HttpGet("https://github.com/is9x/TALENTED//translator.lua"))()
+local translator = loadstring(game:HttpGet("https://raw.githubusercontent.com/is9x/talented/refs/heads/main/translator.lua"))()
 
 local function translateText(text)
     return translator:translateText(text) -- lang shouldve alr been set by main script.
@@ -21,7 +21,7 @@ end
 
 x = "hi"
 
-loadstring(game:HttpGet("https://github.com/is9x/TALENTED/load.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/is9x/talented/refs/heads/main/load.lua", true))()
 
 -- Gui to Lua
 -- Version: 3.2
