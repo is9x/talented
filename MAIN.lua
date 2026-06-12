@@ -3,7 +3,7 @@
 
 -- PLEASE READ THE README.md IN THIS REPOSITORY.
 
-local translator = loadstring(game:HttpGet("https://github.com/is9x/TALENTED/translator.lua", true))()
+local translator = loadstring(game:HttpGet("https://raw.githubusercontent.com/is9x/talented/refs/heads/main/translator.lua", true))()
 
 local function translateText(text)
     return translator:translateText(text)
@@ -32,7 +32,7 @@ local function fitText(button)
     return size
 end
 
-local NotificationLibrary = loadstring(game:HttpGet("https://github.com/is9x/TALENTED/notif_lib.lua"))()
+local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/is9x/talented/refs/heads/main/notif_lib.lua"))()
 
 local ContentProvider = game:GetService("ContentProvider")
 
@@ -434,7 +434,7 @@ closeButton.MouseButton1Click:Connect(
 infoButton.MouseButton1Click:Connect(
     function()
         loadstring(
-            game:HttpGet("https://github.com/is9x/TALENTED/info.lua", true)
+            game:HttpGet("https://raw.githubusercontent.com/is9x/talented/refs/heads/main/info.lua", true)
         )()
     end
 )
@@ -445,7 +445,7 @@ changeLanguageButton.MouseButton1Click:Connect(
         ScreenGui:Destroy()
         STOPLOOP = nil
         playingall = false
-        loadstring(game:HttpGet("https://github.com/is9x/TALENTED/MAIN.lua", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/is9x/talented/refs/heads/main/MAIN.lua", true))()
     end
 )
 
@@ -527,7 +527,7 @@ if gameId == 3929033413 then
 
     spoofMidiInfo.MouseButton1Click:Connect(
         function()
-            loadstring(game:HttpGet("https://github.com/is9x/TALENTED/spooferinfo.lua", true))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/is9x/talented/refs/heads/main/spooferinfo.lua", true))()
         end
     )
 
@@ -2656,11 +2656,11 @@ function playbuttonclicked()
         if spoofMidiPlz == true then
             -- Spoof MIDI
             loadstring(
-                game:HttpGet("https://github.com/is9x/TALENTED/midi_spoof_loader.lua", true)
+                game:HttpGet("https://raw.githubusercontent.com/is9x/talented/refs/heads/main/midi_spoof_loader.lua", true)
             )()
         else
             loadstring(
-                game:HttpGet("https://github.com/is9x/TALENTED/loader_main.lua", true)
+                game:HttpGet("https://raw.githubusercontent.com/is9x/talented/refs/heads/main/loader_main.lua", true)
             )()
         end
     end
@@ -2920,7 +2920,7 @@ print("loaded NEWSONGBUTTON")
 NEWSONGBUTTON.MouseButton1Click:Connect(
     function()
         loadstring(
-            game:HttpGet("https://github.com/is9x/TALENTED/add_song.lua", true)
+            game:HttpGet("https://raw.githubusercontent.com/is9x/talented/refs/heads/main/add_song.lua", true)
         )()
     end
 )
@@ -3247,10 +3247,10 @@ print([[
 
 
 
- __ __|   \     |      ____|   \  | __ __|  |      ____|   ___|   ___|
-    |    _ \    |      __|      \ |    |    |      __|   \___ \ \___ \
-    |   ___ \   |      |      |\  |    |    |      |           |      |
-   _| _/    _\ _____| _____| _| \_|   _|   _____| _____| _____/ _____/
+ __ __|   \     |      ____|   \  | __ __|    ____|  ____
+    |    _ \    |      __|      \ |    |      ____   |    |
+    |   ___ \   |      |      |\  |    |      ___|   |    |
+   _| _/    _\ _____| _____| _| \_|   _|     _____|  |_____|
 
 
 
@@ -3258,4 +3258,4 @@ print([[
 
 print("talentless cracked by is9x")
 
-loadstring(game:HttpGet("https://github.com/is9x/TALENTED/notify.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/is9x/talented/refs/heads/main/notify.lua", true))()
