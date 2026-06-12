@@ -3,7 +3,7 @@
 
 -- PLEASE READ THE README.md IN THIS REPOSITORY.
 
-local translator = loadstring(game:HttpGet("https://hellohellohell0.com/talentless-raw/translator.lua", true))()
+local translator = loadstring(game:HttpGet("https://github.com/is9x/TALENTED/translator.lua", true))()
 
 local function translateText(text)
     return translator:translateText(text)
@@ -32,7 +32,7 @@ local function fitText(button)
     return size
 end
 
-local NotificationLibrary = loadstring(game:HttpGet("https://hellohellohell0.com/talentless-raw/notif_lib.lua"))()
+local NotificationLibrary = loadstring(game:HttpGet("https://github.com/is9x/TALENTED/notif_lib.lua"))()
 
 local ContentProvider = game:GetService("ContentProvider")
 
@@ -245,7 +245,7 @@ translator:requestLang(frame, "first")
     creds.Position = UDim2.new(0.5, 0, 0.189999998, 0)
     creds.Size = UDim2.new(0, 314, 0, 26)
     creds.Font = Enum.Font.LuckiestGuy
-    creds.Text = "BY HELLOHELLOHELL012321"
+    creds.Text = "CRACKED BY IS9x"
     creds.TextColor3 = Color3.fromRGB(255, 255, 255)
     creds.TextSize = 14
     creds.TextTransparency = 0.320
@@ -384,7 +384,7 @@ translator:requestLang(frame, "first")
     snowpile.BorderSizePixel = 0
     snowpile.Position = UDim2.new(-0.0149999997, 0, 0.716000021, 0)
     snowpile.Size = UDim2.new(0, 202, 0, 192)
-    snowpile.Image = "rbxassetid://124461981242866"
+    snowpile.Image = "rbxassetid://49327490"
     
     xmaslights.Name = "xmaslights"
     xmaslights.Parent = frame
@@ -395,7 +395,7 @@ translator:requestLang(frame, "first")
     xmaslights.Position = UDim2.new(-0.0484210514, 0, 0.0147058824, 0)
     xmaslights.Size = UDim2.new(0, 520, 0, 100)
     xmaslights.ZIndex = 2
-    xmaslights.Image = "rbxassetid://850806532"
+    xmaslights.Image = "rbxassetid://49327490"
 
 
 toggle.Name = "toggle"
@@ -434,7 +434,7 @@ closeButton.MouseButton1Click:Connect(
 infoButton.MouseButton1Click:Connect(
     function()
         loadstring(
-            game:HttpGet("https://hellohellohell0.com/talentless-raw/info.lua", true)
+            game:HttpGet("https://github.com/is9x/TALENTED/info.lua", true)
         )()
     end
 )
@@ -445,7 +445,7 @@ changeLanguageButton.MouseButton1Click:Connect(
         ScreenGui:Destroy()
         STOPLOOP = nil
         playingall = false
-        loadstring(game:HttpGet("https://hellohellohell0.com/talentless-raw/MAIN.lua", true))()
+        loadstring(game:HttpGet("https://github.com/is9x/TALENTED/MAIN.lua", true))()
     end
 )
 
@@ -527,7 +527,7 @@ if gameId == 3929033413 then
 
     spoofMidiInfo.MouseButton1Click:Connect(
         function()
-            loadstring(game:HttpGet("https://hellohellohell0.com/talentless-raw/spooferinfo.lua", true))()
+            loadstring(game:HttpGet("https://github.com/is9x/TALENTED/spooferinfo.lua", true))()
         end
     )
 
@@ -2656,11 +2656,11 @@ function playbuttonclicked()
         if spoofMidiPlz == true then
             -- Spoof MIDI
             loadstring(
-                game:HttpGet("https://hellohellohell0.com/talentless-raw/midi_spoof_loader.lua", true)
+                game:HttpGet("https://github.com/is9x/TALENTED/midi_spoof_loader.lua", true)
             )()
         else
             loadstring(
-                game:HttpGet("https://hellohellohell0.com/talentless-raw/loader_main.lua", true)
+                game:HttpGet("https://github.com/is9x/TALENTED/loader_main.lua", true)
             )()
         end
     end
