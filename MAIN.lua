@@ -1378,7 +1378,7 @@ local songs = {
     {button = DRAMAM, bpm = "224", var = false, url = "DRAMAM", cat = {"beautiful"}},
     {button = LOST_UMB, bpm = "133", var = false, url = "LOST_UMB", cat = {"electronic", "anime/jpop"}},
     {button = LOVELY_B, bpm = "150", var = false, url = "LOVELY_B", cat = {"memes", "best"}},
-    {button = CUTE_DEPRESSED, bpm = "200", var = false, url = "CUTE_DEPRESSED", cat = {"memes", "best"}},
+    {button = CUTE_DEPRESSED, bpm = "130", var = false, url = "CUTE_DEPRESSED", cat = {"memes", "best"}},
     {button = TRAP_R, bpm = "151", var = false, url = "TRAP_R", cat = {"memes", "epic", "best", "beautiful"}},
     {button = MANGOMANGOMANGO, bpm = "110", var = false, url = "MANGOMANGOMANGO", cat = {"peak"}},
     {button = DREAM_FL, bpm = "150", var = false, url = "DREAM_FL", cat = {"electronic"}},
