@@ -796,6 +796,7 @@ CRADLES = newSongButton("CRADLES", {"ncs", "no copyright sounds", "sub urban"})
 CREEP = newSongButton("CREEP", {"radiohead"})
 CROSSING_FIELD = newSongButton("CROSSING FIELD", {"sword art online", "sao"})
 CUPID = newSongButton("CUPID", {"love"})
+CUTE_DEPRESSED = newSongButton("CUTE DEPRESSED", {"phonk"})
 DAISY_BELL = newSongButton("DAISY BELL", {})
 DAMNED = newSongButton("DAMNED (COD ZOMBIES)", {"cod zombies theme", "call of duty", "creepy"})
 DARK_BEACH = newSongButton("DARK BEACH", {"pastel ghost"})
@@ -1377,6 +1378,7 @@ local songs = {
     {button = DRAMAM, bpm = "224", var = false, url = "DRAMAM", cat = {"beautiful"}},
     {button = LOST_UMB, bpm = "133", var = false, url = "LOST_UMB", cat = {"electronic", "anime/jpop"}},
     {button = LOVELY_B, bpm = "150", var = false, url = "LOVELY_B", cat = {"memes", "best"}},
+    {button = CUTE_DEPRESSED, bpm = "100", var = false, url = "CUTE_DEPRESSED", cat = {"memes", "best"}},
     {button = TRAP_R, bpm = "151", var = false, url = "TRAP_R", cat = {"memes", "epic", "best", "beautiful"}},
     {button = MANGOMANGOMANGO, bpm = "110", var = false, url = "MANGOMANGOMANGO", cat = {"peak"}},
     {button = DREAM_FL, bpm = "150", var = false, url = "DREAM_FL", cat = {"electronic"}},
