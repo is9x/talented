@@ -185,6 +185,7 @@ info.TextColor3 = Color3.fromRGB(0, 0, 0)
 info.TextScaled = true
 info.TextSize = 14.000
 info.TextWrapped = true
+info.Visible = false
 
 progressBar.Name = "progressBar"
 progressBar.Parent = fram
